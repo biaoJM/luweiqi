@@ -1,0 +1,64 @@
+纹理文件数量
+  纹理文件1(字符串)//.bmp
+  纹理文件2(字符串)
+  纹理文件3(字符串)
+  .
+  .
+  .
+材质数量
+  ambient(float[4])
+  diffuse(float[4])
+  specular(float[4]])
+  emission(float[4])
+  shininess(float[1])
+  纹理文件索引(int[1])//0表示无
+  ambient(float[4])
+  diffuse(float[4])
+  specular(float[4]])
+  emission(float[4])
+  shininess(float[1])
+  纹理文件索引(int[1])//0表示无
+  ambient(float[4])
+  diffuse(float[4])
+  specular(float[4]])
+  emission(float[4])
+  shininess(float[1])
+  纹理文件索引(int[1])//0表示无
+  .
+  .
+顶点数量
+  v1(float[3])
+  v2(float[3])
+  v3(float[3])
+  .
+  .
+贴图坐标数量
+  t1(float[2])
+  t2(float[2])
+  t3(float[2])
+  .
+  .
+法线数量
+  n1(float[3])
+  n2(float[3])
+  n3(float[3])
+  .
+  .
+模型分组数量
+缩放系数(float[3])
+  submodel1 三角形数量
+  材质索引(int)//0表示无
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    .
+    .
+  submodel2 三角形数量
+  材质索引(int)//0表示无
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    vi1 ti1 ni1 vi2 ti2 ni2 vi3 ti3 ni3 (unsigned int[9])
+    .
+    .
+  .
+  .
